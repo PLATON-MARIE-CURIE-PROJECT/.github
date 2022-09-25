@@ -1,12 +1,14 @@
-## Hi there 👋
+# PLATON
 
-<!--
+## Overview
 
-**Here are some ideas to get you started:**
+Processing of large collections of real-world data series is nowadays one of the most challenging and critical problems for a wide range of diverse application domains, including finance, seismology and other earth sciences, astrophysics, neuroscience, engineering, etc. Due to recent advances in the development of modern scientific instruments in earth sciences and the dominance of the Internet of Things, data series collections experience an unprecedented growth in size. Therefore, one of the most pressing issues in data series processing is achieving enhanced performance and high scalability.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+PLATON (Platform-aware LArge-scale Time-Series prOcessiNg) brings together a highly-experienced researcher in the field of the theory of concurrent and distributed computing with a hosting group which has world-leading expertise on data series management, indexing, and analysis, to harness the difficulties of large-scale data series processing by realizing the data series processing performance and scalability goals. Specifically, PLATON aspires to build, for the first time, the necessary methods, algorithms and tools for highly-efficient, scalable, and fault-tolerant processing of huge collections of data series. Scalability will be accomplished by exploiting the full computational capacity (multiple nodes, multiple cores, accelerators) of modern computing platforms. To ensure fault-tolerance, PLATON is designed to run in a way agnostic to the number and identities of the computing elements provided by the platform. PLATON demonstrates its value proposition using two real datasets from different domains. The proposed research project has the potential of great economic and social impact in Europe as multiple scientific and industrial fields are currently in need of the right tools, in order to handle their massive collections of data series, a fact acknowledged by the EU strategy on Big Data.
+
+## Objectives
+
+* PLATON will develop new algorithms and techniques for highly-efficient data series processing in a multi-node setting. This encompasses the design and implementation of 1) low-cost, query-aware data partitioning and mapping techniques for answering queries on large collections of data series in heterogeneous computing platforms, as well as 2) load balancing and communication primitives for multi-node query processing that will result in much better performance, high scalability, and fault-tolerance in large-scale data series processing.
+* The development of new fault-tolerant multi-threading indexes and query processing schemes for large data series collections.
+* PLATON will achieve enhanced performance by combining the power of general purpose CPUs with accelerators, such as Graphical Processing Units (GPUs).
+* PLATON will compile its different components into a powerful index for large-scale data series processing, coming up with a highly-efficient and scalable solution to facilitate processing of datasets that will be orders of magnitude larger (depending on the number of nodes utilized during the computation) than the current datasets tested by state-of-the-art such indexes.
