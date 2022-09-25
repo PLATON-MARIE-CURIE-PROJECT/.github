@@ -12,3 +12,8 @@ PLATON (Platform-aware LArge-scale Time-Series prOcessiNg) brings together a hig
 * The development of new fault-tolerant multi-threading indexes and query processing schemes for large data series collections.
 * PLATON will achieve enhanced performance by combining the power of general purpose CPUs with accelerators, such as Graphical Processing Units (GPUs).
 * PLATON will compile its different components into a powerful index for large-scale data series processing, coming up with a highly-efficient and scalable solution to facilitate processing of datasets that will be orders of magnitude larger (depending on the number of nodes utilized during the computation) than the current datasets tested by state-of-the-art such indexes.
+
+## Links
+* [Website](https://platon.mi.parisdescartes.fr/) 
+* [Linkedin](https://www.linkedin.com/groups/14013902/)
+* [Twitter](https://twitter.com/PlatonProject)
